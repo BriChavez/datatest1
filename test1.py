@@ -1,30 +1,3 @@
-# import random
-# id_l7 = random.sample(range(1,100),1)
-# print(id_l7)
-# id_badu= random.sample(range(1,100),1)
-# # print(id_badu)
-# import random
-# id_l7 = random.sample(range(1,100),1)
-# # id_l7 = id_l7 = rng
-
-
-# l7= "band"
-# id_l7=id(l7)
-# id_l7 = f'{id_l7}'
-# type(id_l7)
-
-# name_id="".join(str(id_l7))
-# import random
-# # id_l7 = random.sample(range(1,100),1)
-# # # id_l7 = id_l7 = rng
-
-
-# l7= "band"
-# id_l7=id(l7)
-# id_l7 = f'{id_l7}'
-# type(id_l7)
-
-# name_id="".join(str(id_l7))
 
 class Artist:
     def __init__(self, artist, name_id, artist_id, dob, genre):
@@ -67,20 +40,3 @@ id_manu = id(manu)
 id_manu = f'{id_manu}'
 manu = Band("Manu Chao", "Manu Chao-" + id_manu, id_manu, "June 20th, 1961", "Bongo Bong", "4:13", "Reggae")
 manu_song = Song(id_manu, "Bongo Bong", "4:13", "Mama was queen of the mambo, Papa was king of the Congo, Deep down in a jungle, I started banging my first bongo, Every monkey like to be, In my place instead of me, 'Cause I'm the king of Bongo, baby, I'm the king of Bongo Bong.")
-
-
-input_a = input()
-
-artist_id_dict = {
-    "l7_key": id_l7,
-    "badu_key": id_badu,
-    "manu_key": id_manu 
-}
-search_key= "input_a"
-
-
-
-
-
-
-
