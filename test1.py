@@ -69,7 +69,14 @@ manu = Band("Manu Chao", "Manu Chao-" + id_manu, id_manu, "June 20th, 1961", "Bo
 manu_song = Song(id_manu, "Bongo Bong", "4:13", "Mama was queen of the mambo, Papa was king of the Congo, Deep down in a jungle, I started banging my first bongo, Every monkey like to be, In my place instead of me, 'Cause I'm the king of Bongo, baby, I'm the king of Bongo Bong.")
 
 
+input_a = input()
 
+artist_id_dict = {
+    "l7_key": id_l7,
+    "badu_key": id_badu,
+    "manu_key": id_manu 
+}
+search_key= "input_a"
 
 
 
