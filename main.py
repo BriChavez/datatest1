@@ -24,7 +24,7 @@ class Song:
         print(length)
         print(lyrics)
 
-id_list = [id(1),id(2), id(3), id(4)]
+id_list = [id(1),id(2), id(3), id(4), id()]
 
 id_l7=f'{id_list[0]}'   
 l7 = Artist("L7", "L7-" + id_l7, id_l7, "August 1st, 1960", "Riot Grrrls")
