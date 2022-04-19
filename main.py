@@ -40,15 +40,26 @@ manu_song = Song(id_manu, "Bongo Bong", "4:13", "Mama was queen of the mambo, Pa
 
 input_id = input()
 
-artist_id_dict = {"l7_key": id_l7, "badu_key": id_badu, "manu_key": id_manu}
-artist_list = list(artist_id_dict.values())
 
-if input_id in artist_list:
+input_id = input("Enter an artist's ID to see if they are in the database")
+if input_id in id_list:
     print("Your artist is listed")
 else: print("No Artist is listed with that ID")
 
-add_artist = input("Would you like to add an artist to this list?")
+artist_list_dict = {"name_key": ["L7", "Erykah Badu", "Manu Chao"],
+                    "song_key": ["Fast and Frightening", "Next Lifetime", "Bongo Bong"]}
 
+artist_song_dict = {"l7_key": ["Fast and Frightening", "Pretend We're Dead", "Worn Out"],
+                    "badu_key": ["Next Lifetime", "Tyrone", "Appletree"],
+                    "manu_key": ["Bongo Bong"], ["Me Gusta Tu"], ["Rumba in Barcelona"]}
+song_input = input("enter a song")
+artist_input = input("enter a artist")
+if artist_input in artist_list_dict['name_key'] and song_input in artist_list_dict['song_key']:
+    print ("yay")
+else:
+    print{"try again"}
+
+add_artist = input("Would you like to add an artist to this list?")
 if add_artist == "yes":
     class New_Artist:
         def __init__(self, inputed_name, inputed_song):
