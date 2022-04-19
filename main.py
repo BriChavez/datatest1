@@ -46,6 +46,11 @@ if input_id in id_list:
     print("Your artist is listed")
 else: print("No Artist is listed with that ID")
 
+artist_id_dict = {"l7_key": [id_l7, "L7", "Fast and Frightening"],
+                  "badu_key": [id_badu, "Erykah Badu", "Next Lifetime"],
+                  "manu_key": [id_manu, "Manu Chao", "Bongo Bong"]}
+artist_list = list(artist_id_dict.values())
+
 artist_list_dict = {"name_key": ["L7", "Erykah Badu", "Manu Chao"],
                     "song_key": ["Fast and Frightening", "Next Lifetime", "Bongo Bong"]}
 
